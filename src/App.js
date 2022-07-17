@@ -23,7 +23,7 @@
 // }
 
 // export default App;
-
+import './styles/HeaderNav.css';
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 
