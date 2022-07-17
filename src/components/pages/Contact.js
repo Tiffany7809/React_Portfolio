@@ -5,20 +5,31 @@ const style = {
     },
     h1: {
         textAlign: 'center',
-    }
+    },
+    p: {
+        textAlign: 'Center',
+        borderColor: "black",
+        borderWidth: "3px",
+        borderStyle: "solid",
+        padding: "10px",
+        lineHeight: 2
+      },
 };
+
+
 const contactInfo = {
     email: 'tiffany.dempsey2000@gmail.com',
     phone: '206-280-9723',
     linkedin: 'Tiffany Dempsey',
     github: 'Tiffany7809'
 }
+
 export default function Contact() {
    
   return (
     <div>
       <h1 style={style.h1}>Contact Me</h1>
-      <p>
+      <p style = {style.p}>
         <ul style={style.ul}>
             <li idName='email'>
                 E-mail: 
