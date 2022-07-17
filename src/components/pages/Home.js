@@ -1,9 +1,15 @@
 import React from 'react';
 
+const style = {
+    h1: {
+        textAlign: 'center',
+    }
+};
+
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1 style={style.h1}>Tiffany Dempsey</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
