@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../../public/assets/images/"
+import image from "../../"
 
 const style = {
   h1: {
@@ -20,7 +20,7 @@ export default function AboutMe() {
     <div>
       <h1 style={style.h1}>About Me</h1>
         <div>
-            <img className="selfie" src= {'../../../public/assets/images/Selfie.jpg'} 
+            <img className="selfie" src= {image} 
      alt="Tiffanys Selfie"/>
         </div>
 
