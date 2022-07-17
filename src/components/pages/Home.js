@@ -11,16 +11,14 @@ export default function Home() {
     <div>
       <h1 style={style.h1}>Tiffany Dempsey</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        Hello! Welcome to my React Porfolio.
+        My Name is Tiffany, Welcome to my Portfolio!
+        I am a UW Coding Boot Camp student, working to expand my skill set in
+        the tech field.
+      
+        I hope to be a front end web developer, and someday work my way to game
+        develpment as well.
+        On this site, you can check out some of the work I have done!
       </p>
     </div>
   );
