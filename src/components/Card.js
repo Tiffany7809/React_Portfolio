@@ -2,12 +2,11 @@ import React from "react";
 
 export default function Card(props) {
   const style = {
+   width: "90%",
+   margin: "auto",
    
     div: {
       display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      flexDirection: "column",
       textAlign: "center"
     },
     ul: {
@@ -42,6 +41,11 @@ export default function Card(props) {
               <a href={props.deployedLink} target="none">
                 Check Out The App!
               </a>
+            </li>
+            <li> 
+                <a href={props.deployedLink} target="none">
+                    GitHub Repository
+                </a>
             </li>
           </ul>
         </div>
