@@ -7,9 +7,6 @@ const style = {
     alignItems: "center",
     flexDirection: "column",
   },
-  h1: {
-    textAlign: "center",
-  },
   img: {
     width: "150px",
     display: "flex",
@@ -17,6 +14,10 @@ const style = {
     borderStyle: "solid",
     borderwidth: "4px",
     margin: "10px",
+  },
+  h1: {
+    textAlign: "center",
+    fontWeight: "600",
   },
 };
 

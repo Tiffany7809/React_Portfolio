@@ -16,14 +16,20 @@ export default function Card(props) {
       display: "flex",
       margin: "auto",
     },
-    
+    h5: {
+      fontSize:"20px",
+      fontWeight:"700"
+    },
+    h1: {
+      fontWeight: "600",
+    }
   };
 
   return (
     <div style={style.div} className="container" key={props.id}>
       <div className="card" style={style.div}>
         <div className="card-body">
-          <h5 className="title">{props.title}</h5>
+          <h5 style ={style.h5}className="title">{props.title}</h5>
           <div style={style.div}>
             <img
               style={style.img}

@@ -20,6 +20,10 @@ const style = {
   a: {
     backgroundColor: "gray",
   },
+  h1: {
+    textAlign: "center",
+    fontWeight: "600",
+  },
 };
 
 const contactInfo = {
@@ -32,7 +36,7 @@ const contactInfo = {
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Me</h1>
+      <h1 style={style.h1}>Contact Me</h1>
       <div style={style.div}>
         <p style={style.p}>
           <ul style={style.ul}>
