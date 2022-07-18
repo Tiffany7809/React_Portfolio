@@ -2,19 +2,17 @@ import React from "react";
 
 export default function Card(props) {
   const style = {
-    width: "90%",
-    margin: "auto",
-
     div: {
       display: "flex",
       textAlign: "center",
-      border: "none"
+      border: "none",
+      width: "100%"
     },
     ul: {
       listStyle: "none",
     },
     img: {
-      width: "150px",
+      width: "300px",
       display: "flex",
       margin: "auto",
     },
@@ -26,7 +24,7 @@ export default function Card(props) {
       <div className="card" style={style.div}>
         <div className="card-body">
           <h5 className="title">{props.title}</h5>
-          <div>
+          <div style={style.div}>
             <img
               style={style.img}
               className="img"

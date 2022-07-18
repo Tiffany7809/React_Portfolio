@@ -1,6 +1,6 @@
 :root {
     --navBar: rgb(0, 0, 0);
-    --mainBackground: #0b85a7;
+    --mainBackground: #c6a7e9;
     --borderColor: black;
 }
 * {
@@ -21,11 +21,17 @@ h1, h5 {
     font-family: 'Arima', cursive;
     text-align: center;
     color: var(--borderColor);
-    font-weight: 600;
-    padding-top: 20px;
     border-bottom: solid black 3px;
 }
+h5 {
+    padding-top: 20px;
+    
 
+}
+
+h1 {
+    font-weight: 600;
+}
 div {
     color: var(--borderColor);
     display: flex;
