@@ -1,7 +1,8 @@
 :root {
     --navBar: rgb(0, 0, 0);
-    --mainBackground: #c6a7e9;
+    --mainBackground: #d8d8d8;
     --borderColor: rgb(51, 51, 51);
+    --headerColor: gray;
 }
 * {
     background-color: var(--mainBackground);
@@ -20,7 +21,7 @@
 h1, h5 {
     font-family: 'Arima', cursive;
     text-align: center;
-    color: var(--borderColor);
+    color: var(--headerColor);
     border-bottom: solid var(--borderColor) 3px;
 }
 
