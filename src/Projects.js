@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./components/Card";
-import TranslationAppImg from "../src/images/TranslationApp.jpg"
+// import TranslationAppImg from "../src/images/TranslationApp.jpg"
 
 const projects = [
   {
@@ -10,7 +10,7 @@ const projects = [
             to translate words and phrases quickly on the go.`,
     deployedLink: "https://levisgaragegroupinc.github.io/translation_app/",
     id: 1,
-    img: {TranslationAppImg},
+    img: "",
     github: "https://github.com/levisgaragegroupinc/translation_app",
   },
   {

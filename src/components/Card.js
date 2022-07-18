@@ -2,12 +2,13 @@ import React from "react";
 
 export default function Card(props) {
   const style = {
-   width: "90%",
-   margin: "auto",
-   
+    width: "90%",
+    margin: "auto",
+
     div: {
       display: "flex",
-      textAlign: "center"
+      textAlign: "center",
+      border: "none"
     },
     ul: {
       listStyle: "none",
@@ -15,16 +16,14 @@ export default function Card(props) {
     img: {
       width: "150px",
       display: "flex",
-      borderColor: "gray",
-      borderStyle: "solid",
-      borderwidth: "4px",
-      margin: "auto"
+      margin: "auto",
     },
+    
   };
 
   return (
     <div style={style.div} className="container" key={props.id}>
-      <div className="card" style={style}>
+      <div className="card" style={style.div}>
         <div className="card-body">
           <h5 className="title">{props.title}</h5>
           <div>
@@ -42,10 +41,10 @@ export default function Card(props) {
                 Check Out The App!
               </a>
             </li>
-            <li> 
-                <a href={props.deployedLink} target="none">
-                    GitHub Repository
-                </a>
+            <li>
+              <a href={props.deployedLink} target="none">
+                GitHub Repository
+              </a>
             </li>
           </ul>
         </div>
