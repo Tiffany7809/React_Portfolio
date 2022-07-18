@@ -2,14 +2,9 @@ import React from "react";
 import Project from "../../Projects";
 
 const style = {
-  div: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    flexDirection: "column",
-  },
   h1: {
     textAlign: "center",
+    color:"black"
   },
 };
 

@@ -1,22 +1,8 @@
 import React from "react";
 
 const style = {
-  div: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    flexDirection: "column",
-  },
   h1: {
     textAlign: "center",
-  },
-  p: {
-    textAlign: "Center",
-    borderColor: "black",
-    borderWidth: "3px",
-    borderStyle: "solid",
-    padding: "10px",
-    lineHeight: 2,
   },
 };
 

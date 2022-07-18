@@ -1,0 +1,28 @@
+* {
+    background-color: rgb(27, 36, 33);
+}
+.nav {
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1rem;
+}
+.nav-item {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(27, 36, 33)
+}
+
+div {
+    color: black;
+}
+
+p {
+    text-align: Center;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+    line-height: 1.5rem;
+    
+  };
+
+
+
