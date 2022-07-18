@@ -1,7 +1,7 @@
 :root {
     --navBar: rgb(0, 0, 0);
     --mainBackground: #c6a7e9;
-    --borderColor: black;
+    --borderColor: rgb(51, 51, 51);
 }
 * {
     background-color: var(--mainBackground);
@@ -14,24 +14,16 @@
 }
 .nav-item {
     background-color: var(--navBar);
-    border: 1px solid var(--mainBackground)
+   
 }
 
 h1, h5 {
     font-family: 'Arima', cursive;
     text-align: center;
     color: var(--borderColor);
-    border-bottom: solid black 3px;
-}
-h5 {
-    padding-top: 20px;
-    
-
+    border-bottom: solid var(--borderColor) 3px;
 }
 
-h1 {
-    font-weight: 600;
-}
 div {
     color: var(--borderColor);
     display: flex;
@@ -41,7 +33,7 @@ div {
 
 p {
     text-align: Center;
-    padding: 10px;
+    padding: 2px;
     line-height: 1.5rem;
   }
   
