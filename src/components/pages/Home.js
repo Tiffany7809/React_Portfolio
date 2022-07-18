@@ -4,7 +4,7 @@ const style = {
   h1: {
     textAlign: "center",
     fontFamily: "'Arima', cursive",
-    fontSize: "100px",
+    fontSize: "80px",
     fontWeight: "600",
   },
 };

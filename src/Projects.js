@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./components/Card";
-// import TranslationAppImg from "../src/images/TranslationApp.jpg"
-
+import TranslationAImg from "./images/translationapp.jpg"
 const projects = [
   {
     title: "World Traveler App",
@@ -10,7 +9,7 @@ const projects = [
             to translate words and phrases quickly on the go.`,
     deployedLink: "https://levisgaragegroupinc.github.io/translation_app/",
     id: 1,
-    img: "",
+    img: {TranslationAImg},
     github: "https://github.com/levisgaragegroupinc/translation_app",
   },
   {
@@ -69,7 +68,7 @@ const projects = [
 export default function Project() {
   return (
     <div>
-      {projects.map(({ img, title, description, deployedLink, id, github }) => (
+      {projects.map(({img, title, description, deployedLink, id, github }) => (
         <Card
           img={img}
           title={title}

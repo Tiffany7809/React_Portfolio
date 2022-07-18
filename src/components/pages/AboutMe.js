@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../selfie.jpg";
+import image from "../../images/selfie.jpg";
 const style = {
   div: {
     display: "flex",
