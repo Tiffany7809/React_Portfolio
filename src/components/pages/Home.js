@@ -1,4 +1,5 @@
 import React from "react";
+//change to resume page!
 
 const style = {
   h1: {
@@ -12,15 +13,14 @@ const style = {
 export default function Home() {
   return (
     <div>
-      <h1 style={style.h1}>Tiffany Dempsey</h1>
+      <h1 style={style.h1}>Resume</h1>
+      <p>Download Resume <a> Here</a></p>
+      Name:
+      Front End Proficiencies:
+      Back end Proficiencies
+      
+      
 
-      <p>Hello! </p>
-      <p> My name is Tiffany, I am a Full-Stack Developer.</p>
-      <p> Welcome to my React Porfolio.</p>
-      <p>I am a UW Coding Boot Camp student, working to expand</p>
-      <p> my skill set in the tech field. I hope to be a front end web developer,</p>
-      <p> and someday work my way to game develpment as well. On this site, you</p>
-      <p>can check out some of the work I have done!</p>
     </div>
   );
 }
