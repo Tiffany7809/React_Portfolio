@@ -1,6 +1,11 @@
 import React from "react";
-import Card from "./components/Card";
-import TranslationAImg from "./images/translationapp.jpg"
+import Card from "./Card";
+import TAI from "../images/translationApp.jpg";
+import CCI from "../images/communityCloset.png";
+import TBI from "../images/techBlog.png";
+import DPI from "../images/dayPlanner.png"
+import RPI from "../images/randomPass.png"
+
 const projects = [
   {
     title: "World Traveler App",
@@ -9,7 +14,7 @@ const projects = [
             to translate words and phrases quickly on the go.`,
     deployedLink: "https://levisgaragegroupinc.github.io/translation_app/",
     id: 1,
-    img: {TranslationAImg},
+    img:`${TAI}`,
     github: "https://github.com/levisgaragegroupinc/translation_app",
   },
   {
@@ -20,7 +25,7 @@ const projects = [
                 can give the clothes new life.`,
     deployedLink: "https://community-closet-206.herokuapp.com/",
     id: 2,
-    img: "",
+    img:`${CCI}`,
     gihub: "https://github.com/areitan/Community_Closet",
   },
   {
@@ -36,7 +41,7 @@ const projects = [
     description: `add description!`,
     deployedLink: "https://tiffany7809.github.io/Day_Planner/",
     id: 4,
-    img: "",
+    img: `${DPI}`,
     github: "https://github.com/Tiffany7809/Code_Quiz",
   },
   {
@@ -44,7 +49,7 @@ const projects = [
     description: `add description!`,
     deployedLink: "https://tiffany7809.github.io/Random_Password_Generator/",
     id: 5,
-    img: "",
+    img: `${RPI}`,
     github: "https://github.com/Tiffany7809/Random_Password_Generator",
   },
   {
@@ -52,7 +57,7 @@ const projects = [
     description: `add description!`,
     deployedLink: "https://techblogtiffany.herokuapp.com/",
     id: 6,
-    img: "",
+    img: `${TBI}`,
     github: "https://github.com/Tiffany7809/Tech-Blog",
   },
   {
