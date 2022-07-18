@@ -10,14 +10,6 @@ const style = {
   h1: {
     textAlign: "center",
   },
-  p: {
-    textAlign: "Center",
-    borderColor: "black",
-    borderWidth: "3px",
-    borderStyle: "solid",
-    padding: "10px",
-    lineHeight: 2,
-  },
   img: {
     width: "150px",
     display: "flex",
