@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import NavTabs from './NavTabs';
 import Footer from './Footer';
 import Home from './pages/Home';

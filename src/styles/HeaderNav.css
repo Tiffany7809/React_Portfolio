@@ -17,6 +17,15 @@
     background-color: var(--navBar);
    
 }
+.footer {
+    position: relative;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: var(--mainBackground);
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
 
 h1, h5 {
     font-family: 'Arima', cursive;

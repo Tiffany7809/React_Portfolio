@@ -1,6 +1,6 @@
-import Git from "../images/githubLogo.webp";
-import LinkedIn from "../images/linkInLogo.png";
-import Email from "../images/emailLogo.png";
+import Git from "../images/githubLogoR.png";
+import LinkedIn from "../images/linkedinLogo.jpg";
+import Email from "../images/emailLogoR.png";
 
 const style = {
     img: {
@@ -8,26 +8,22 @@ const style = {
         height:"100px",
         margin: "5px",
         
-    },
-    div: {
-        alignItems: "center",
-        justifyContent: "center",
-        marginTop: "0%",
-        position:"relative",
-        border: "none",
     }
-
 }
 
 export default function Footer() {
     return (
-      <div style={style.div}>
+      <div className = "footer">
         <ul className="nav nav-tabs">
             <li>
-                <img style={style.img} className="logo" src={Git} alt ="github logo"/>
+                <a href="https://github.com/Tiffany7809" target="none">
+                    <img style={style.img} className="logo" src={Git} alt ="github logo"/>
+                </a>
             </li>
             <li>
-                <img style={style.img} className="logo" src={LinkedIn} alt ="LinkedIn Logo"/>
+                <a href="https://www.linkedin.com/in/tiffany-d-00a37777/" target="none">
+                    <img style={style.img} className="logo" src={LinkedIn} alt ="LinkedIn Logo"/>
+                </a>
             </li>
             <li>
                 <img style={style.img} className="logo" src={Email} alt ="EmailLogo"/>

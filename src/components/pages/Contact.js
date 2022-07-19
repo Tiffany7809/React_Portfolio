@@ -1,4 +1,6 @@
 import React from "react";
+import ContactForm from '../ContactMe.js';
+
 const style = {
   ul: {
     listStyle: "none",
@@ -26,52 +28,19 @@ const style = {
   },
 };
 
-const contactInfo = {
-  email: "tiffany.dempsey2000@gmail.com",
-  phone: "206-280-9723",
-  linkedin: "Tiffany Dempsey",
-  github: "Tiffany7809",
-};
+// const contactInfo = {
+//   email: "tiffany.dempsey2000@gmail.com",
+//   phone: "206-280-9723",
+//   linkedin: "Tiffany Dempsey",
+//   github: "Tiffany7809",
+// };
 
 export default function Contact() {
   return (
     <div>
       <h1 style={style.h1}>Contact Me</h1>
-      <div style={style.div}>
-        <p style={style.p}>
-          <ul style={style.ul}>
-            <li idName="email" style={style.li}>
-              E-mail:
-              <a style={style.a} href="mailto:tiffany.dempsey2000@gmail.com">
-                {contactInfo.email}
-              </a>
-            </li>
-            <li idName="phone" style={style.li}>
-              Phone: {contactInfo.phone}
-            </li>
-            <li idName="linkedin" style={style.li}>
-              LinkedIn:
-              <a
-                style={style.a}
-                href="https://www.linkedin.com/in/tiffany-d-00a37777/"
-                target="none"
-              >
-                {contactInfo.linkedin}
-              </a>
-            </li>
-            <li idName="github" style={style.li}>
-              GitHub:
-              <a
-                style={style.a}
-                href="https://github.com/Tiffany7809"
-                target="none"
-              >
-                {contactInfo.github}
-              </a>
-            </li>
-          </ul>
-        </p>
-      </div>
+    
+      <ContactForm />
     </div>
   );
 }
