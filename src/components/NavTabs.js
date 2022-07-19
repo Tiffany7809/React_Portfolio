@@ -4,7 +4,8 @@ import React from 'react';
 // We assign them to their own variable names
 const style= {
   h1: {
-    marginRight: "200px",
+    marginRight: "80%",
+    marginTop: "1%",
     backgroundColor: "black"
   }
 }
