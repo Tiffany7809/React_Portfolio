@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import TAI from "../images/translationApp.jpg";
+import TAI from "../images/translationapp.jpg";
 import CCI from "../images/communityCloset.png";
 import TBI from "../images/techBlog.png";
 import DPI from "../images/dayPlanner.png"
