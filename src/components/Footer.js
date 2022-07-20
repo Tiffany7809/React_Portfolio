@@ -27,7 +27,9 @@ export default function Footer() {
                 </a>
             </li>
             <li>
+            <a href = "mailto: tiffany.dempsey2000@gmail.com">
                 <img style={style.img} className="logo" src={Email} alt ="EmailLogo"/>
+            </a>
             </li>
         </ul>
   

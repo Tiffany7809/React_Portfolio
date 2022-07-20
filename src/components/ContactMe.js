@@ -3,32 +3,34 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 const style = {
   div: {
-    width: "60%",
+    width: "70%",
     height: "300px",
-    border: "solid 3px black",
-    paddingLeft:"3%"
+    border: "solid 2px black",
+    paddingLeft:"3%",
+    borderRadius: "3%",
+    display:"flex",
+    // justifyContent: "center",
+    alignItems:"center",
   },
   divContainer: {
     display:"flex",
     justifyContent: "center",
     alignItems:"center",
-    border: "none",
-    marginBottom: "50%",
+    border: "none"
     
   },
   input: {
     backgroundColor: "white",
-    marginTop: "5%",
-    marginLeft: "7.5%",
-    width: "70%",
+    // margin: "3px",
+    width:"90%"
   },
-  textarea: {
-   marginTop: "2%",
-    marginLeft: "5%",
-    width: "70%",
-    height: "40%",
-    backgroundColor: "white",
-  }
+  label: {
+    fontFamily:"'Arima', cursive",
+    color: "black",
+    fontWeight: "600",
+  
+  },
+
 
 }
 export default function ContactMe() {
@@ -53,15 +55,17 @@ export default function ContactMe() {
   return (
   <div style ={style.divContainer}>
     <div style = {style.div}>
+      <p>Send me an E-mail, I'd love to hear from you!</p>
       <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
+        <label style = {style.label}>Name</label>
         <input style = {style.input} type="text" name="user_name" />
         <br></br>
-        <label>Email</label>
+        <label label style = {style.label}>Email</label>
         <input style = {style.input} type="email" name="user_email" />
         <br></br>
-        <label>Message</label>
-        <textarea style = {style.textarea} name="message" />
+        <label label style = {style.label}>Message</label>
+        <textarea style = {style.input} name="message" />
+        <br></br>
         <input type="submit" value="Send" />
       </form>
     </div>

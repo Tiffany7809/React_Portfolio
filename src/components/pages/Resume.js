@@ -7,7 +7,7 @@ const style = {
   },
 };
 
-export default function Home() {
+export default function Resume() {
   return (
     <div>
       <h1 style={style.h1}>Resume</h1>

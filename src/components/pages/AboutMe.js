@@ -2,10 +2,9 @@ import React from "react";
 import image from "../../images/selfie.jpg";
 const style = {
   div: {
-    display: "flex",
-    justifyContent: "center",
     alignItems: "center",
-    flexDirection: "column",
+    width: "80%",
+    border: "none",
   },
   img: {
     width: "150px",
@@ -33,7 +32,7 @@ export default function AboutMe() {
           alt="Tiffanys Selfie"
         />
       </div>
-
+      <div style = {style.div}>
       <p style={style.p}>
         I started coding when I was in highschool, just small things for fun,
         mostly drawing pictures with CSS. After highschool I decided to take on
@@ -47,6 +46,7 @@ export default function AboutMe() {
         me. Making this portfolio os my first step into working with React.js
         and I love it!
       </p>
+    </div>
     </div>
   );
 }
