@@ -4,9 +4,10 @@ import Email from "../images/emailLogoR.png";
 
 const style = {
     img: {
-        width:"100px",
-        height:"100px",
+        width:"50px",
+        height:"50px",
         margin: "5px",
+        border: "none"
         
     }
 }

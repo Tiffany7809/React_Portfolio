@@ -23,7 +23,7 @@
     width: 100%;
     background-color: var(--mainBackground);
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border: none;
 }
 
@@ -39,6 +39,7 @@ div {
     display: flex;
     flex-direction:column;
     border: var(--borderColor) solid 1px;
+    
 }
 
 p {
