@@ -1,7 +1,36 @@
 import React, { useRef } from "react";
 // import emailjs from '@emailjs/browser';
 import emailjs from "emailjs-com";
+const style = {
+  div: {
+    width: "60%",
+    height: "300px",
+    border: "solid 3px black",
+    paddingLeft:"3%"
+  },
+  divContainer: {
+    display:"flex",
+    justifyContent: "center",
+    alignItems:"center",
+    border: "none",
+    marginBottom: "50%",
+    
+  },
+  input: {
+    backgroundColor: "white",
+    marginTop: "5%",
+    marginLeft: "7.5%",
+    width: "70%",
+  },
+  textarea: {
+   marginTop: "2%",
+    marginLeft: "5%",
+    width: "70%",
+    height: "40%",
+    backgroundColor: "white",
+  }
 
+}
 export default function ContactMe() {
   const form = useRef();
 
@@ -22,16 +51,20 @@ export default function ContactMe() {
   };
 
   return (
-    <div>
+  <div style ={style.divContainer}>
+    <div style = {style.div}>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input style = {style.input} type="text" name="user_name" />
+        <br></br>
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input style = {style.input} type="email" name="user_email" />
+        <br></br>
         <label>Message</label>
-        <textarea name="message" />
+        <textarea style = {style.textarea} name="message" />
         <input type="submit" value="Send" />
       </form>
+    </div>
     </div>
   );
 }
