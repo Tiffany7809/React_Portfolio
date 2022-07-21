@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.85fe04eb.css",
-    "main.js": "/React_Portfolio/static/js/main.42ab3be5.js",
+    "main.js": "/React_Portfolio/static/js/main.104a2173.js",
     "static/media/translationapp.jpg": "/React_Portfolio/static/media/translationapp.a41daf22a72edc019fef.jpg",
     "static/media/dayPlanner.png": "/React_Portfolio/static/media/dayPlanner.cafa0b7b6fb6327e4150.png",
     "static/media/randomPass.png": "/React_Portfolio/static/media/randomPass.16ccf8e686f8fe027e71.png",
+    "static/media/CodeQuiz.png": "/React_Portfolio/static/media/CodeQuiz.d81d2ee75b4428dac626.png",
     "static/media/selfie.jpg": "/React_Portfolio/static/media/selfie.d1cee2963341b6cefb2d.jpg",
     "static/media/techBlog.png": "/React_Portfolio/static/media/techBlog.6107a6a764032e27105c.png",
     "static/media/communityCloset.png": "/React_Portfolio/static/media/communityCloset.d1f86b1e70fe8d62c084.png",
+    "static/media/image-coming-soon.jpg": "/React_Portfolio/static/media/image-coming-soon.90bd9cdd8c1c0e56b9b6.jpg",
     "static/media/githubLogoR.png": "/React_Portfolio/static/media/githubLogoR.aabf6c82d3d6513ca051.png",
     "index.html": "/React_Portfolio/index.html",
     "main.85fe04eb.css.map": "/React_Portfolio/static/css/main.85fe04eb.css.map",
-    "main.42ab3be5.js.map": "/React_Portfolio/static/js/main.42ab3be5.js.map"
+    "main.104a2173.js.map": "/React_Portfolio/static/js/main.104a2173.js.map"
   },
   "entrypoints": [
     "static/css/main.85fe04eb.css",
-    "static/js/main.42ab3be5.js"
+    "static/js/main.104a2173.js"
   ]
 }
