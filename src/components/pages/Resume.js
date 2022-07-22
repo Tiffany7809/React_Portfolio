@@ -1,5 +1,7 @@
 import React from "react";
-//change to resume page!
+import TDresume from "../../assets/TiffanyDempseyResume.pdf";
+
+const resume = `${TDresume}`
 
 const style = {
   h1: {
@@ -30,7 +32,7 @@ export default function Resume() {
       <>
         <h2 style={style.h2}>Tiffany Dempsey</h2>
         <p>
-          Download my full Resume: <a href="\assets\Tiffany Dempsey Resume.pdf" download="Tiffany Dempsey Resume.pdf">Download</a>
+          Download my full Resume: <a href={resume} download="TiffanyDempseyResume.pdf">Download</a>
         </p>
         <br></br>
         <h3 style={style.h3}>Front End Proficiencies:</h3>
